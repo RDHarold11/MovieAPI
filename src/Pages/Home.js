@@ -18,7 +18,7 @@ const Home = ({ movies, fetchData, setInput, input }) => {
           Send
         </button>
       </div>
-      <section className="section flex w-[1300px] mx-auto pt-10 flex-wrap h-[440px] justify-center items-center">
+      <section className="section flex w-[300px] md:w-[1300px] mx-auto pt-10 flex-wrap h-[440px] justify-center items-center">
         {movies?.map((movie) => (
           <MovieCard
             key={movie.imdbID}

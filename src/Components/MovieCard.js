@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const MovieCard = ({ img, year, title, id, type }) => {
   return (
-    <div className="card w-0 flex-grow-[1] duration-[.5s] hover:w-[300px] hover:cursor-crosshair hover:opacity-1 hover:contrast-[120%]">
+    <div className="card w-0  flex-grow-[1] duration-[.5s] hover:w-[300px] hover:cursor-crosshair hover:opacity-1 hover:contrast-[120%] ">
       <img
         className="rounded object-cover w-full h-full opacity-[0.8]"
         src={

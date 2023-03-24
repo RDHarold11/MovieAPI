@@ -10,15 +10,6 @@
 }
 
 body {
-  background-color: #333;
-  color: white;
-  margin: 0;
-  font-family: "Poppins";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.navbar {
   background: #b993d6; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -30,6 +21,12 @@ body {
     #8ca6db,
     #b993d6
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* From https://css.glass */
+  color: white;
+  margin: 0;
+  font-family: "Poppins";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
@@ -56,4 +53,22 @@ code {
   height: 45%;
   width: 100%;
   opacity: 0.9;
+}
+.movie {
+  /* From https://css.glass */
+  background: rgba(255, 251, 251, 0.19);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.2px);
+  -webkit-backdrop-filter: blur(9.2px);
+}
+
+.data {
+  /* From https://css.glass */
+  /* From https://css.glass */
+  background: rgba(183, 180, 180, 0.19);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.2px);
+  -webkit-backdrop-filter: blur(9.2px);
 }
